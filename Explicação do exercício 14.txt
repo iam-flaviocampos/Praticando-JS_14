@@ -1,0 +1,32 @@
+Primeiro, temos uma função chamada lojaDeFrutas, que recebe um parâmetro chamado fruta. Essa função
+contém uma estrutura condicional switch, que será avaliada com base no valor passado para o parâmetro fruta.
+
+Dentro do switch, temos quatro casos diferentes: "maçã", "kiwi", "melancia" e o caso default. O código
+irá executar o bloco de código correspondente ao caso que corresponda ao valor de fruta.
+
+No primeiro caso, se fruta for igual a "maçã", será exibida a mensagem "Não vendemos esta fruta aqui!"
+no console. Em seguida, temos a palavra-chave break, que indica que devemos sair do switch após a execução
+deste caso.
+
+No segundo caso, se fruta for igual a "kiwi", será exibida a mensagem "Estamos com escassez de kiwis!"
+no console. Novamente, temos a palavra-chave break para sair do switch.
+
+No terceiro caso, se fruta for igual a "melancia", será exibida a mensagem "Aqui está, são 3 reais o
+quilo" no console. Mais uma vez, utilizamos break para sair do switch após a execução deste caso.
+
+Por fim, temos o caso default, que será executado se fruta não corresponder a nenhum dos casos anteriores.
+Nesse caso, será exibida a mensagem "Error: Fruta desconhecida" no console.
+
+Após a definição da função, temos quatro chamadas para lojaDeFrutas, passando diferentes valores para o
+parâmetro fruta: "maçã", "kiwi", "melancia" e "Akuma no Mi". Isso nos permite testar as diferentes condições
+e ver o resultado no console.
+
+No exemplo fornecido, a função será chamada três vezes com as frutas "maçã", "kiwi" e "melancia". Como
+resultado, serão exibidas as seguintes mensagens no console:
+
+"Não vendemos esta fruta aqui!" para o caso "maçã"
+"Estamos com escassez de kiwis!" para o caso "kiwi"
+"Aqui está, são 3 reais o quilo" para o caso "melancia"
+
+Já para o último caso, em que a fruta é "Akuma no Mi" (que não corresponde a nenhum caso definido), será
+exibida a mensagem "Error: Fruta desconhecida" no console.
